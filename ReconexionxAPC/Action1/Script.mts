@@ -209,9 +209,9 @@ End Sub
 Sub FlujoWIC()
 
 	If DataTable("e_WIC_ValidaCli", dtLocalsheet)="SI" Then
-		
-RunAction "WIC1", oneIteration
+		RunAction "WIC1", oneIteration
 	End If
+
 	
 End Sub
 Sub ActualizarAtributos()
