@@ -56,7 +56,7 @@ Sub PanelInteraccion()
 		Wend
 End Sub
 Sub ProductosAsignados()
-	
+	wait 10
 	JavaWindow("Ejecutivo de interacción").JavaMenu("Buscar").JavaMenu("Pedidos").Select
 	JavaWindow("Ejecutivo de interacción").JavaMenu("Buscar").JavaMenu("Pedidos").JavaMenu("Productos Asignados").Select @@ hightlight id_;_29580658_;_script infofile_;_ZIP::ssf15.xml_;_
 	
